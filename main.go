@@ -7,6 +7,8 @@ import (
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
+	"github.com/wisedevguy/fp-sanbercode-golang-batch-41/database"
+	"github.com/wisedevguy/fp-sanbercode-golang-batch-41/routers"
 )
 
 var (
@@ -33,13 +35,10 @@ func main() {
 		fmt.Println("DB connection SUCCESS")
 	}
 
-	//database.DbMigrate(DB)
+	database.DbMigrate(DB)
 
 	defer DB.Close()
 
-	// //Router GIN
-	// router := gin.Default()
-
-	// router.Run("localhost:8080")
+	routers.StartServer().Run(":8080")
 
 }
