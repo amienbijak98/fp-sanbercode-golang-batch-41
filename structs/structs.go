@@ -12,13 +12,13 @@ type User struct {
 
 type Transaksi struct {
 	IDTransaksi     int64             `json:"id_transaksi"`
-	IDUser          string            `json:"id_user"`
+	Users           string            `json:"users"`
 	Tanggal         time.Time         `json:"tanggal"`
 	Keterangan      string            `json:"keterangan"`
 	TotalTransaksi  int               `json:"total_transaksi"`
 	TotalBayar      int               `json:"total_bayar"`
 	StatusBayar     string            `json:"status_bayar"`
-	TransaksiDetail []TransaksiDetail `json:"transaksi-detail"`
+	TransaksiDetail []TransaksiDetail `json:"transaksi_detail"`
 }
 
 type TransaksiDetail struct {

@@ -21,5 +21,9 @@ func StartServer() *gin.Engine {
 	router.PUT("/items/:id_item", controllers.UpdateItem)
 	router.DELETE("/items/:id_item", controllers.DeleteItem)
 
+	// ROUTERS TRANSAKSI CETAK
+	router.GET("/transaksi/cetak", controllers.GetAllTransaksi)
+	router.POST("/transaksi/cetak", controllers.InsertTransaksiCetak)
+
 	return router
 }

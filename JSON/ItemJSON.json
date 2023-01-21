@@ -1,0 +1,14 @@
+{
+    "result": [
+        {
+            "id_item": 2,
+            "nama_item": "Cetak A4 Warna",
+            "harga_item": 1500
+        },
+        {
+            "id_item": 1,
+            "nama_item": "Cetak A4 Hitam",
+            "harga_item": 1000
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "result": [
+        {
+            "username": "amienbijak",
+            "password": "amien123",
+            "full_name": "Bijak Amien M",
+            "saldo": 5000,
+            "role": "user"
+        },
+        {
+            "username": "icharesky",
+            "password": "icha24",
+            "full_name": "Icha Resky",
+            "saldo": 5000,
+            "role": "user"
+        },
+        {
+            "username": "admin",
+            "password": "admin123",
+            "full_name": "admin aplikasi",
+            "saldo": 5000,
+            "role": "admin"
+        },
+        {
+            "username": "mbulmeong",
+            "password": "mbul123",
+            "full_name": "Gembul Kucing",
+            "saldo": 5000,
+            "role": "user"
+        }
+    ]
+}
